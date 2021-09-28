@@ -2316,7 +2316,7 @@ textarea.form-control {
 
 .breadcrumb-item+.breadcrumb-item::before {
   font-family: FontAwesome;
-  content: "";
+  content: "";
 }
 
 /* Extra Small Devices */
