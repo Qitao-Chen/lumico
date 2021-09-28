@@ -172,7 +172,7 @@ select {
 }
 
 .bg-page-title {
-  background: url('/assets/images/page-titles/page-title.jpg') !important;
+  background: url('../images/page-titles/page-title.jpg') !important;
 }
 
 .ebook-mt {
