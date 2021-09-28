@@ -1,3 +1,8 @@
+@font-face {
+  font-family: icomoon;
+  src: url("./assets/fonts/icomoon.ttf");
+}
+
 /*--------------------------
     Project Name: Promina
     Version: 1.0
@@ -2311,7 +2316,7 @@ textarea.form-control {
 
 .breadcrumb-item+.breadcrumb-item::before {
   font-family: FontAwesome;
-  content: "ï„…";
+  content: "";
 }
 
 /* Extra Small Devices */
@@ -4788,7 +4793,9 @@ textarea.form-control {
 }
 
 .slick-arrow.slick-next:before {
-  content: "î¤¤";
+
+  content: "";
+  ;
 }
 
 .slick-arrow.slick-prev {
@@ -4796,7 +4803,7 @@ textarea.form-control {
 }
 
 .slick-arrow.slick-prev:before {
-  content: "î¤£";
+  content: "";
 }
 
 .carousel-arrows-light .slick-arrow {
