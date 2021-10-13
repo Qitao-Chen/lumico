@@ -6,8 +6,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta name="description"
-        content="Keep up to date with our Lumico Solar & Electrical, updates, news and events. Visit our blog.">
+    <meta name="description" content="Keep up to date with our Lumico Solar & Electrical, updates, news and events. Visit our blog.">
 
     <link rel="apple-touch-icon" sizes="120x120" href="/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
@@ -15,35 +14,30 @@
     <link rel="manifest" href="/favicon/site.webmanifest">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css?family=Barlow:400,500,600,700%7cRoboto:400,500,700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barlow:400,500,600,700%7cRoboto:400,500,700&display=swap">
     <link rel="stylesheet" href="/assets/css/libraries.css">
     <link rel="stylesheet" href="/assets/css/style.css">
 
     <script>
         "use strict";
 
-        ! function () {
+        ! function() {
             var t = window.driftt = window.drift = window.driftt || [];
             if (!t.init) {
-                if (t.invoked) return void(window.console && console.error && console.error(
-                    "Drift snippet included twice."));
-                t.invoked = !0, t.methods = ["identify", "config", "track", "reset", "debug", "show", "ping", "page",
-                        "hide", "off", "on"
-                    ],
-                    t.factory = function (e) {
-                        return function () {
+                if (t.invoked) return void(window.console && console.error && console.error("Drift snippet included twice."));
+                t.invoked = !0, t.methods = ["identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on"],
+                    t.factory = function(e) {
+                        return function() {
                             var n = Array.prototype.slice.call(arguments);
                             return n.unshift(e), t.push(n), t;
                         };
-                    }, t.methods.forEach(function (e) {
+                    }, t.methods.forEach(function(e) {
                         t[e] = t.factory(e);
-                    }), t.load = function (t) {
+                    }), t.load = function(t) {
                         var e = 3e5,
                             n = Math.ceil(new Date() / e) * e,
                             o = document.createElement("script");
-                        o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src =
-                            "https://js.driftt.com/include/" + n + "/" + t + ".js";
+                        o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
                         var i = document.getElementsByTagName("script")[0];
                         i.parentNode.insertBefore(o, i);
                     };
@@ -56,9 +50,9 @@
 
 
     <script>
-        ! function (f, b, e, v, n, t, s) {
+        ! function(f, b, e, v, n, t, s) {
             if (f.fbq) return;
-            n = f.fbq = function () {
+            n = f.fbq = function() {
                 n.callMethod ?
                     n.callMethod.apply(n, arguments) : n.queue.push(arguments)
             };
@@ -100,40 +94,33 @@
             <nav class="navbar navbar-expand-lg sticky-navbar">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="/">
-                        <img src="/assets/images/logo/lumico-logo.png" style="width:100%" class="logo-light logo-size"
-                            alt="logo">
-                        <img src="/assets/images/logo/lumico-logo-color.png" style="width:100%"
-                            class="logo-dark logo-size" alt="logo">
-                    </a>
+<img src="/assets/images/logo/lumico-logo.png" style="width:100%" class="logo-light logo-size" alt="logo">
+<img src="/assets/images/logo/lumico-logo-color.png" style="width:100%" class="logo-dark logo-size" alt="logo">
+</a>
                     <button class="navbar-toggler" title="Menu" type="button">
-                        <span class="menu-lines"><span></span></span>
-                    </button>
+<span class="menu-lines"><span></span></span>
+</button>
                     <div class="collapse navbar-collapse" id="mainNavigation">
                         <ul class="navbar-nav">
                             <li class="nav__item"><a href="/" class="nav__item-link" title="Home">Home</a></li>
                             <li class="nav__item"><a href="/about" class="nav__item-link" title="About">About</a></li>
                             <li class="nav__item with-dropdown">
-                                <a href="/solar-for-homes" class="dropdown-toggle nav__item-link"
-                                    title="Expertise">Expertise</a>
+                                <a href="/solar-for-homes" class="dropdown-toggle nav__item-link" title="Expertise">Expertise</a>
                                 <i class="fa fa-angle-down" data-toggle="dropdown"></i>
                                 <ul class="dropdown-menu">
-                                    <li class="nav__item"><a href="/solar-for-homes" class="nav__item-link"
-                                            title="Solar For Homes">Solar For Homes</a></li>
-                                    <li class="nav__item"><a href="/solar-for-business" class="nav__item-link"
-                                            title="Solar For Businesses">Solar For Businesses</a></li>
-                                    <li class="nav__item"><a href="/electrical-services" class="nav__item-link"
-                                            title="Electrical Services">Electrical Services</a></li>
+                                    <li class="nav__item"><a href="/solar-for-homes" class="nav__item-link" title="Solar For Homes">Solar For Homes</a></li>
+                                    <li class="nav__item"><a href="/solar-for-business" class="nav__item-link" title="Solar For Businesses">Solar For Businesses</a></li>
+                                    <li class="nav__item"><a href="/electrical-services" class="nav__item-link" title="Electrical Services">Electrical Services</a></li>
                                 </ul>
                             </li>
 
                             <li class="nav__item"><a href="/faq" class="nav__item-link" title="FAQ">FAQ</a></li>
                             <li class="nav__item"><a href="/news" class="nav__item-link" title="News">News</a></li>
-                            <li class="nav__item"><a href="/contact" class="nav__item-link" title="Contact">Contact </a>
-                            </li>
+                            <li class="nav__item"><a href="/contact" class="nav__item-link" title="Contact">Contact </a></li>
                             <li class="nav__item nav__item-btn d-none d-md-block">
                                 <a href="/contact" title="Contact" class="btn btn__primary action__btn-request">
-                                    <span>GET A QUOTE</span><i class="icon-arrow-right"></i>
-                                </a>
+<span>GET A QUOTE</span><i class="icon-arrow-right"></i>
+</a>
                             </li>
                         </ul>
                     </div>
@@ -169,114 +156,89 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-8 col-md-8 col-lg-8 blog">
-                        <a href="https://lumico.com.au/article/9586-the-freedom-of-solar-energy"
-                            style="text-decoration: none; color: inherit">
+                        <a href="https://lumico.com.au/article/9361-when-you-invest-in-lumico-solar-electrical-you-invest-in-quality" style="text-decoration: none; color: inherit">
                             <div class="embed-col-md-12" style="min-height: 200px; margin-top: 30px">
                                 <div class="embed-col-md-4" style="padding: 10px">
-                                    <img src="https://64.media.tumblr.com/19d958ff09cbe3ca629a8ea6ed3994d0/d836c51e5df6d3b5-fd/s540x810/2146e67012dea6d5518016a98289f22b99364021.png"
-                                        class="embed-img-rounded" style="width: 100%" />
+                                    <img src="https://64.media.tumblr.com/aed99d990f35fc117cfe4253cb8b3bcf/33ec260730da1838-e0/s540x810/ee343127e4afc109d3e750b2f8208f56a204216d.jpg" class="embed-img-rounded" style="width: 100%" />
                                 </div>
                                 <div class="embed-col-md-8" style="padding: 10px">
-                                    <p>26 Sep, 2021</p>
-                                    <h4 style="margin-top: 20px">The Freedom Of Solar Energy</h4>
-                                    <p style="margin-top: 20px">By using the free energy generated through your solar
-                                        system, you have more freedom and more control over your electricity, reducing
-                                        your power bills by as much as 80%. Gear up to enjoy hundreds or th ...</p>
+                                    <p>22 Aug, 2021</p>
+                                    <h4 style="margin-top: 20px">When You Invest In Lumico Solar &amp; Electrical You Invest In Quality</h4>
+                                    <p style="margin-top: 20px">It&rsquo;s often true what they, you get what you for. And when we&rsquo;re talking solar, this means quality panels, premium inverters and first-class backup batteries. Our expert installers are inv ...</p>
                                 </div>
                             </div>
                         </a>
-                        <a href="https://lumico.com.au/article/9541-your-process-of-getting-started-with-lumico"
-                            style="text-decoration: none; color: inherit">
+                        <a href="https://lumico.com.au/article/9332-what-it-means-to-invest-in-the-long-term-value-of-your-solar-system" style="text-decoration: none; color: inherit">
                             <div class="embed-col-md-12" style="min-height: 200px; margin-top: 30px">
                                 <div class="embed-col-md-4" style="padding: 10px">
-                                    <img src="https://64.media.tumblr.com/0c2b5b6585af31dc0c42e6dd45c4bcb0/0c72ec825ccee665-1b/s540x810/40bc6b6ca2e5b26b2196a36ccba11edeb7d448b6.png"
-                                        class="embed-img-rounded" style="width: 100%" />
+                                    <img src="https://64.media.tumblr.com/db31e8e3a231f728825c569d01954f07/2c3614ff3e2acb24-ea/s540x810/ce8a4f16c394feb06ccb167cfc2277306c48e5d9.jpg" class="embed-img-rounded" style="width: 100%" />
                                 </div>
                                 <div class="embed-col-md-8" style="padding: 10px">
-                                    <p>19 Sep, 2021</p>
-                                    <h4 style="margin-top: 20px">Your Process Of Getting Started With Lumico</h4>
-                                    <p style="margin-top: 20px">If you want to discuss your solar requirements, or you
-                                        have an electrical problem you need taken care of, Lumico Solar &amp; Electrical
-                                        can assist. We have years of experience working with residential ...</p>
+                                    <p>16 Aug, 2021</p>
+                                    <h4 style="margin-top: 20px">What It Means To Invest In The Long Term Value Of Your Solar System</h4>
+                                    <p style="margin-top: 20px">Are you interested in the long term value of your solar system? You Should be! We look at the long-term gains you can achieve with the right system for your home or business and offer you a premium q ...</p>
                                 </div>
                             </div>
                         </a>
-                        <a href="https://lumico.com.au/article/9511-how-to-control-your-energy-costs"
-                            style="text-decoration: none; color: inherit">
+                        <a href="https://lumico.com.au/article/9226-our-commitment-to-service-and-satisfaction" style="text-decoration: none; color: inherit">
                             <div class="embed-col-md-12" style="min-height: 200px; margin-top: 30px">
                                 <div class="embed-col-md-4" style="padding: 10px">
-                                    <img src="https://64.media.tumblr.com/bb99c081db2246af7d4dd901afc354d3/2baf6cc809f054fe-bc/s540x810/b864ee2c555a52a24888811e4e396a5c8e0f1244.png"
-                                        class="embed-img-rounded" style="width: 100%" />
+                                    <img src="https://64.media.tumblr.com/c8285de3a8781103fd1e0334a30017b7/8ec027b2a5239d67-82/s540x810/4ac0f07ee04dad7401dfc52b960543c87defade8.png" class="embed-img-rounded" style="width: 100%" />
                                 </div>
                                 <div class="embed-col-md-8" style="padding: 10px">
-                                    <p>14 Sep, 2021</p>
-                                    <h4 style="margin-top: 20px">How To Control Your Energy Costs</h4>
-                                    <p style="margin-top: 20px">Solar is the most effective method of controlling and
-                                        managing future energy costs and requirements, and as the cost of energy
-                                        continues to rise, there’s never been a better time for businesses to i ...</p>
+                                    <p>1 Aug, 2021</p>
+                                    <h4 style="margin-top: 20px">Our Commitment to Service and Satisfaction</h4>
+                                    <p style="margin-top: 20px">We don&rsquo;t stop the work until you&rsquo;re completely satisfied with the outcome! As a CEC Accredited solar provider, we are proud to offer a range of quality products. All of the solar panels ...</p>
                                 </div>
                             </div>
                         </a>
-                        <a href="https://lumico.com.au/article/9493-make-the-dream-of-free-electricity-come-true"
-                            style="text-decoration: none; color: inherit">
+                        <a href="https://lumico.com.au/article/9184-here-s-how-you-can-cut-your-carbon-footprint" style="text-decoration: none; color: inherit">
                             <div class="embed-col-md-12" style="min-height: 200px; margin-top: 30px">
                                 <div class="embed-col-md-4" style="padding: 10px">
-                                    <img src="https://64.media.tumblr.com/9cb7adfeeb68fd2ef02b5f5e04064ff8/5876536b2183c5ea-67/s540x810/b3e270272912e66dce76ffdd148853d6a29167ca.png"
-                                        class="embed-img-rounded" style="width: 100%" />
+                                    <img src="https://64.media.tumblr.com/f4585eeb491c144065305d2c487a1c90/0c0d389cb6e4e3db-58/s540x810/73b3d66f71c862b5a3d359fbd842a9a24b6de60c.png" class="embed-img-rounded" style="width: 100%" />
                                 </div>
                                 <div class="embed-col-md-8" style="padding: 10px">
-                                    <p>12 Sep, 2021</p>
-                                    <h4 style="margin-top: 20px">Make The Dream Of Free Electricity Come True</h4>
-                                    <p style="margin-top: 20px">The sunlight is here, the technology is here and now the
-                                        affordability is here too. At Lumico Solar &amp; Electrical, we have taken to
-                                        the task of removing the barriers to solar energy to the next lev ...</p>
+                                    <p>25 Jul, 2021</p>
+                                    <h4 style="margin-top: 20px">Here&#039;s How You Can Cut Your Carbon Footprint</h4>
+                                    <p style="margin-top: 20px">Light up your home and cut your carbon footprint with an easy-to-install solar panel system. We specialize in finding you the solar panels that will work best for your home or commercial property. ...
+                                    </p>
                                 </div>
                             </div>
                         </a>
-                        <a href="https://lumico.com.au/article/9444-how-our-choice-in-quality-solar-panels-will-affect-your-solar-system"
-                            style="text-decoration: none; color: inherit">
+                        <a href="https://lumico.com.au/article/9144-tailored-solutions-for-our-clients" style="text-decoration: none; color: inherit">
                             <div class="embed-col-md-12" style="min-height: 200px; margin-top: 30px">
                                 <div class="embed-col-md-4" style="padding: 10px">
-                                    <img src="https://64.media.tumblr.com/ee874d0c09dcaab57b5be6ebcedd2eec/dbabb0bffd415450-92/s540x810/bd40c2f63b5f1f34d866ef8b0b78a59cf0e91931.jpg"
-                                        class="embed-img-rounded" style="width: 100%" />
+                                    <img src="https://64.media.tumblr.com/cc4906556b3befffc369461351f8bf79/cd20f0c982f2d734-f3/s540x810/8a65e94d332d0182b372a676808bd5ece349e35d.png" class="embed-img-rounded" style="width: 100%" />
                                 </div>
                                 <div class="embed-col-md-8" style="padding: 10px">
-                                    <p>5 Sep, 2021</p>
-                                    <h4 style="margin-top: 20px">How Our Choice In Quality Solar Panels Will Affect Your
-                                        Solar System</h4>
-                                    <p style="margin-top: 20px">Quality solar panels are built to last with high-quality
-                                        design and components, they hold a higher output percentage for longer and the
-                                        chance of breakdowns and faults are drastically reduced, saving ...</p>
+                                    <p>18 Jul, 2021</p>
+                                    <h4 style="margin-top: 20px">Tailored Solutions For Our Clients</h4>
+                                    <p style="margin-top: 20px">When you choose to work with us, you can expect a range of solar solutions, subject to your individual requirements. Our core electrical service includes quality installations, carried out by reliab ...</p>
                                 </div>
                             </div>
                         </a>
-                        <a href="https://lumico.com.au/article/9399-are-you-looking-for-a-solar-provider-that-offers-on-going-customer-service-and-support"
-                            style="text-decoration: none; color: inherit">
+                        <a href="https://lumico.com.au/article/9113-our-wide-range-of-energy-solutions" style="text-decoration: none; color: inherit">
                             <div class="embed-col-md-12" style="min-height: 200px; margin-top: 30px">
                                 <div class="embed-col-md-4" style="padding: 10px">
-                                    <img src="https://64.media.tumblr.com/8dd6c46d3c062107e8fde9bb6afd45d9/7723b96e5b8c479c-20/s540x810/3f760d4020306400a99c84c2aa9062c1ac4582ea.jpg"
-                                        class="embed-img-rounded" style="width: 100%" />
+                                    <img src="https://64.media.tumblr.com/433fe314d3f9b60b3cdb53263d1d78a4/21b819f08ce0ffc3-04/s540x810/5fb79d8127509de8addd8f7b48a35b05fceb5887.png" class="embed-img-rounded" style="width: 100%" />
                                 </div>
                                 <div class="embed-col-md-8" style="padding: 10px">
-                                    <p>29 Aug, 2021</p>
-                                    <h4 style="margin-top: 20px">Are You Looking For A Solar Provider That Offers
-                                        On-Going Customer Service And Support?</h4>
-                                    <p style="margin-top: 20px">It&rsquo;s critical that you choose a solar provider
-                                        that prioritises customer service and support. Lumico Solar &amp; Electrical are
-                                        proud to offer ongoing customer service and support to ensure your ...</p>
+                                    <p>11 Jul, 2021</p>
+                                    <h4 style="margin-top: 20px">Our Wide Range of Energy Solutions</h4>
+                                    <p style="margin-top: 20px">Whether you are considering battery storage, solar panels or just exploring your energy options, we have a solution for you. Our range of products and services include solar panel installation, repl ...</p>
                                 </div>
                             </div>
                         </a>
                         <div style="text-align: center">
-                            Previous. 1
-                            <a href="https://airsite.com.au/news?p=2">2</a>
+                            <a href="https://lumico.com.au/news">Previous.</a>
+                            <a href="https://lumico.com.au/news">1</a> 2
                             <a href="https://lumico.com.au/news?p=3">3</a>
                             <a href="https://lumico.com.au/news?p=4">4</a>
                             <a href="https://lumico.com.au/news?p=5">5</a>
                             <a href="https://lumico.com.au/news?p=6">6</a>
                             <a href="https://lumico.com.au/news?p=7">7</a>
                             <a href="https://lumico.com.au/news?p=8">8</a>
-                            <a href="https://lumico.com.au/news?p=2">Next</a>
+                            <a href="https://lumico.com.au/news?p=3">Next</a>
                         </div>
                         <script>
                             var css = document.createElement("link");
@@ -293,10 +255,9 @@
                                 <div class="widget__content">
                                     <h5>Keep up to date with our Newsletter</h5>
                                     <p>Enter your details below to receive our monthly Newsletter.</p>
-                                    <div class="embeda-forms-default" id="TFBXeU0rRklHWmlXcUlMRUpUWVNidz09"
-                                        data-app="forms"></div>
+                                    <div class="embeda-forms-default" id="TFBXeU0rRklHWmlXcUlMRUpUWVNidz09" data-app="forms"></div>
                                     <script>
-                                        (function (d, s, id) {
+                                        (function(d, s, id) {
                                             var js;
                                             if (d.getElementById(id)) {
                                                 return
@@ -314,12 +275,9 @@
                                 <h5 class="widget__title">Our Expertise</h5>
                                 <div class="widget-content">
                                     <ul class="list-unstyled">
-                                        <li><a href="/solar-for-homes" title="Solar For Homes"><span>Solar For Homes
-                                                </span><i class="icon-arrow-right"></i></a></li>
-                                        <li><a href="/solar-for-business" title="Solar For Businesses"><span>Solar For
-                                                    Businesses </span><i class="icon-arrow-right"></i></a></li>
-                                        <li><a href="/electrical-services" title="Electrical Services"><span>Electrical
-                                                    Services </span><i class="icon-arrow-right"></i></a></li>
+                                        <li><a href="/solar-for-homes" title="Solar For Homes"><span>Solar For Homes </span><i class="icon-arrow-right"></i></a></li>
+                                        <li><a href="/solar-for-business" title="Solar For Businesses"><span>Solar For Businesses </span><i class="icon-arrow-right"></i></a></li>
+                                        <li><a href="/electrical-services" title="Electrical Services"><span>Electrical Services </span><i class="icon-arrow-right"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -336,25 +294,18 @@
                     <div class="row">
                         <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 footer__widget footer__widget-about">
                             <div class="footer__widget-content mb-40">
-                                <img src="/assets/images/logo/lumico-logo-color.png" alt="logo"
-                                    class="logo-size-footer mb-30">
-                                <p class="mb-20">Lumico Solar & Electrical is a family-owned business that has been
-                                    dedicated to helping Adelaide homeowners save money on their energy bills for nearly
-                                    25 years. We offer premium products and solutions, including various
-                                    warranty options, energy savings check and finance alternatives. Simply get in touch
-                                    with us today to discuss any solar or electrical need or question you have.</p>
+                                <img src="/assets/images/logo/lumico-logo-color.png" alt="logo" class="logo-size-footer mb-30">
+                                <p class="mb-20">Lumico Solar & Electrical is a family-owned business that has been dedicated to helping Adelaide homeowners save money on their energy bills for nearly 25 years. We offer premium products and solutions, including various
+                                    warranty options, energy savings check and finance alternatives. Simply get in touch with us today to discuss any solar or electrical need or question you have.</p>
 
-                                <img src="/assets/images/cec-member-logo.png" style="width:180px"
-                                    alt="CEC council member logo">
+                                <img src="/assets/images/cec-member-logo.png" style="width:180px" alt="CEC council member logo">
                             </div>
                         </div>
                         <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 footer__widget footer__widget-nav">
                             <h6 class="footer__widget-title">Get our Ebrochure</h6>
-                            <p>A snapshot of our expertise and services, the Ebrochure is our digital calling card to
-                                take with you and share with your friends.</p>
+                            <p>A snapshot of our expertise and services, the Ebrochure is our digital calling card to take with you and share with your friends.</p>
                             <br>
-                            <a class="btn-footer" href="/get-our-ebrochure" target="blank"
-                                title="Ebrochure here">EBROCHURE HERE <i class="icon-arrow-right"></i></a>
+                            <a class="btn-footer" href="/get-our-ebrochure" target="blank" title="Ebrochure here">EBROCHURE HERE <i class="icon-arrow-right"></i></a>
                             <br><br><br>
                             <h6 class="footer__widget-title">Contact Us</h6>
                             <div class="footer__widget-content mb-30">
@@ -365,10 +316,7 @@
                                         </div>
                                     </div>
                                     <div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10">
-                                        <p><a href="/cdn-cgi/l/email-protection#bdced2d1dccffdd1c8d0d4ded293ded2d093dcc8"
-                                                class="footer-text-info" title="Email"><span class="__cf_email__"
-                                                    data-cfemail="89fae6e5e8fbc9e5fce4e0eae6a7eae6e4a7e8fc">[email&#160;protected]</span></a>
-                                        </p>
+                                        <p><a href="/cdn-cgi/l/email-protection#0b7864676a794b677e6662686425686466256a7e" class="footer-text-info" title="Email"><span class="__cf_email__" data-cfemail="10637f7c7162507c657d79737f3e737f7d3e7165">[email&#160;protected]</span></a></p>
                                     </div>
                                 </div>
                                 <div class="row">
@@ -378,9 +326,7 @@
                                         </div>
                                     </div>
                                     <div class="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10">
-                                        <p><a href="tel:0416529833" class="footer-text-info" title="Phone Number">0416
-                                                529 833</a> / <a href="tel:0881176926" class="footer-text-info">08
-                                                81176926</a></p>
+                                        <p><a href="tel:0416529833" class="footer-text-info" title="Phone Number">0416 529 833</a> / <a href="tel:0881176926" class="footer-text-info">08 81176926</a></p>
                                     </div>
                                 </div>
                                 <div class="row">
@@ -397,22 +343,17 @@
                         </div>
                         <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 footer__widget footer__widget-nav">
                             <h6 class="footer__widget-title">Instagram</h6>
-                            <script data-cfasync="false"
-                                src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+                            <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
                             <script src="https://apps.elfsight.com/p/platform.js" defer></script>
                             <div class="elfsight-app-c79df1c7-6fdc-4ca3-bbc2-dff4129e9ef4"></div>
                             <br>
                             <ul class="social__icons list-unstyled">
-                                <li><a href="https://www.facebook.com/Lumico-Solar-102196004925184/" title="Facebook"
-                                        target="blank"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="https://www.instagram.com/lumicosolar/?hl=en" title="Instagram"
-                                        target="blank"><i class="fa fa-instagram"></i></a></li>
-                                <li><a href="https://lumicosolar.tumblr.com/" title="Tumblr" target="blank"><i
-                                            class="fa fa-tumblr"></i></a></li>
+                                <li><a href="https://www.facebook.com/Lumico-Solar-102196004925184/" title="Facebook" target="blank"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://www.instagram.com/lumicosolar/?hl=en" title="Instagram" target="blank"><i class="fa fa-instagram"></i></a></li>
+                                <li><a href="https://lumicosolar.tumblr.com/" title="Tumblr" target="blank"><i class="fa fa-tumblr"></i></a></li>
                             </ul>
                             <br>
-                            <img src="/assets/images/logo-south-australia.png" style="width:120px"
-                                alt="Logo South Australia" />
+                            <img src="/assets/images/logo-south-australia.png" style="width:120px" alt="Logo South Australia" />
                         </div>
                     </div>
                 </div>
@@ -421,21 +362,13 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-10 col-md-10 col-lg-10">
-                            <p class="mb-0 color-white"><a href="/privacy-policy" class="white-txt">Privacy Policy</a> ©
-                                Copyright 2021 Lumico Solar & Electrical by <a href="https://goo.gl/X2EaMy"
-                                    class="white-txt" target="blank"> RT Digital</a> </p>
+                            <p class="mb-0 color-white"><a href="/privacy-policy" class="white-txt">Privacy Policy</a> © Copyright 2021 Lumico Solar & Electrical by <a href="https://goo.gl/X2EaMy" class="white-txt" target="blank"> RT Digital</a> </p>
                         </div>
                         <div class="col-sm-2 col-md-2 col-lg-2">
                             <ul class="logos-footer">
-                                <li><a href="https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Flumicoelectricals.com.au%2Fnews#l298c80"
-                                        target="blank"><img src="assets/images/logo/html5.png"
-                                            alt="Validator HTML5"></a></li>
-                                <li><a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Flumicoelectricals.com.au%2Fnews&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en"
-                                        target="blank"><img src="assets/images/logo/css3.png" alt="Validator CSS3"></a>
-                                </li>
-                                <li><a href="https://search.google.com/test/mobile-friendly?id=UjItxUsAGMRXmwIQNfXuRg"
-                                        target="blank"><img src="assets/images/logo/tablet.png"
-                                            alt="Responsive Validator"></a></li>
+                                <li><a href="https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Flumicoelectricals.com.au%2Fnews#l298c80" target="blank"><img src="assets/images/logo/html5.png" alt="Validator HTML5"></a></li>
+                                <li><a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Flumicoelectricals.com.au%2Fnews&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en" target="blank"><img src="assets/images/logo/css3.png" alt="Validator CSS3"></a></li>
+                                <li><a href="https://search.google.com/test/mobile-friendly?id=UjItxUsAGMRXmwIQNfXuRg" target="blank"><img src="assets/images/logo/tablet.png" alt="Responsive Validator"></a></li>
                             </ul>
                         </div>
                     </div>
